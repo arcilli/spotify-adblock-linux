@@ -10,6 +10,7 @@ static const char *whitelist[] = {
     "i.scdn.co", // cover art
     "lineup-images.scdn.co", // playlists lineup images
     "merch-img.scdn.co", // merch images
+    "misc.scdn.co", // miscellaneous images
     "mosaic.scdn.co", // playlist mosaic images
     "newjams-images.scdn.co", // release radar images
     "o.scdn.co", // cover art
@@ -24,27 +25,34 @@ static const char *whitelist[] = {
     "*.buzzsprout.com", // podcasts
     "platform-lookaside.fbsbx.com", // Facebook profile images
     "genius.com", // lyrics (genius-spicetify)
+    "*.googlevideo.com", // YouTube videos (Spicetify Reddit app)
+    "*.gvt1.com", // Widevine download
     "hwcdn.libsyn.com", // podcasts
     "traffic.libsyn.com", // podcasts
     "api*-desktop.musixmatch.com", // lyrics (genius-spicetify)
     "*.podbean.com", // podcasts
     "dts.podtrac.com", // podcasts
     "www.podtrac.com", // podcasts
+    "www.reddit.com", // Reddit (Spicetify Reddit app)
     "audio.simplecast.com", // podcasts
     "media.simplecast.com", // podcasts
     "ap.spotify.com", // audio (access point)
     "*.ap.spotify.com", // resolved access points
-    "api.spotify.com", // queue
+    "api.spotify.com", // client APIs
     "api-partner.spotify.com", // album/artist pages
+    "xpui.app.spotify.com", // user interface
     "apresolve.spotify.com", // access point resolving
     "clienttoken.spotify.com", // login
     "*dealer.spotify.com", // websocket connections
     "image-upload*.spotify.com", // image uploading
     "login*.spotify.com", // login
-    "spclient.wg.spotify.com", // ads/tracking (blocked in blacklist), radio, recently played, friend activity,...
+    "*-spclient.spotify.com", // client APIs
+    "spclient.wg.spotify.com", // client APIs, ads/tracking (blocked in blacklist)
     "audio-fa.spotifycdn.com", // audio
     "seed-mix-image.spotifycdn.com", // mix images
     "download.ted.com", // podcasts
+    "www.youtube.com", // YouTube (Spicetify Reddit app)
+    "i.ytimg.com", // YouTube images (Spicetify Reddit app)
     "dcs*.megaphone.fm", // podcasts
     "traffic.megaphone.fm", // podcasts
     "audio-ak-spotify-com.akamaized.net", // audio
